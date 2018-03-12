@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="BooksAPI" groupId="com.example.Books.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/BooksAPI.xml</file>
+    </artifact>
+    <artifact name="ListBooksEP" groupId="com.example.Books.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ListBooksEP.xml</file>
+    </artifact>
+    <artifact name="AddBookEP" groupId="com.example.Books.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/AddBookEP.xml</file>
+    </artifact>
+    <artifact name="RemoveBookEP" groupId="com.example.Books.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/RemoveBookEP.xml</file>
+    </artifact>
+    <artifact name="GetBookEP" groupId="com.example.Books.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/GetBookEP.xml</file>
+    </artifact>
+    <artifact name="ModifyBookEP" groupId="com.example.Books.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ModifyBookEP.xml</file>
+    </artifact>
+</artifacts>

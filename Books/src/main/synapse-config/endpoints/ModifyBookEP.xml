@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="ModifyBookEP" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="put" uri-template="http://localhost:6666/booksservice/books/{uri.var.id}"/>
+</endpoint>

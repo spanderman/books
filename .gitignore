@@ -1,0 +1,14 @@
+/classes/
+/test-classes/
+.metadata/
+.classpath
+.project
+.tmp
+AppointmentCancellation/
+BooksBad/
+AppointmentCancellationBad/
+SampleServices/
+SampleServicesConnectorExporter/
+SampleServicesCompositeApplication/
+SampleServicesRegistry/
+**/target/

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/booksAPI" name="BooksAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" protocol="http" uri-template="/books">
+        <inSequence>
+            <send>
+                <endpoint key="ListBooksEP"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" protocol="http" uri-template="/books">
+        <inSequence>
+            <send>
+                <endpoint key="AddBookEP"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" protocol="http" uri-template="/books/{id}">
+        <inSequence>
+            <send>
+                <endpoint key="RemoveBookEP"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" protocol="http" uri-template="/books/{id}">
+        <inSequence>
+            <send>
+                <endpoint key="GetBookEP"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" protocol="http" uri-template="/books/{id}">
+        <inSequence>
+            <send>
+                <endpoint key="ModifyBookEP"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
