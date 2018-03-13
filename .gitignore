@@ -4,6 +4,8 @@
 .classpath
 .project
 .tmp
+.recommenders
+**/.settings/
 AppointmentCancellation/
 BooksBad/
 AppointmentCancellationBad/
