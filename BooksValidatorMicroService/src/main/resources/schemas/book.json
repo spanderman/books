@@ -1,0 +1,36 @@
+{
+  "$id": "http://example.com/book.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema ",
+      "default": "",
+      "examples": [
+        "A new book"
+      ]
+    },
+    "author": {
+      "$id": "/properties/author",
+      "type": "string",
+      "title": "The Author Schema ",
+      "default": "",
+      "examples": [
+        "Me"
+      ]
+    },
+    "year": {
+      "$id": "/properties/year",
+      "type": "integer",
+      "title": "The Year Schema ",
+      "default": 0,
+      "examples": [
+        2018
+      ]
+    }
+  },
+  "required": ["title","author","year"],
+}
